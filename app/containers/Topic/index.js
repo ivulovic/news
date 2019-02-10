@@ -14,7 +14,7 @@ export const Topic = (props) => (
     <div className="link-list clear">
       <div className="link-list-item">
         <div className="link-list-projects">
-          <span className="link-list-number">{props.id}</span><FormattedMessage {...messages.share}/>:
+         <FormattedMessage {...messages.share}/>:
         </div>
         <span className="link-url-list">
           <a href="#" className="link-list-link">Facebook</a> &nbsp;

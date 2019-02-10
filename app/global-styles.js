@@ -1,12 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
   * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .text-center{
+    text-align:center;
   }
   .content{
     width: 102%;
@@ -28,14 +31,40 @@ const GlobalStyle = createGlobalStyle`
   }
   .nav-list{
     display:block;
-    margin: 15px 0px;
   }
   .nav-item{
     display:inline-block;
-    float:right;
     margin-right:10px;
   }
-  .nav-list .nav-item:first-child{
+  .dark-select-wrapper{
+    background: #1d1d1b;
+    padding: 5px;
+    display:inline-block;   
+     margin: 10px;
+  }
+  .dark-select{
+    background: #1d1d1b;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    display: inline-block;
+    /* height: 35px; */
+    width: 115px;
+    outline: none;
+    text-transform:uppercase;
+  }
+  .dark-option{
+    display:block;
+    font-weight:600;
+    margin:5px;
+    text-transform:capitalize;
+  }
+  .logo-image{
+    max-width: 100%;
+    margin: 15px 0px;
+    padding: 0px 15px;
+  }
+  .nav-list .nav-item:last-child{
     margin-right:0px
   }
   .nav-link{
@@ -53,20 +82,45 @@ const GlobalStyle = createGlobalStyle`
   .left-side{
     width:35%;
   }
-  .jigsaw-side{
-    /*width: 15%;*/
-    float: left;
+  // .jigsaw-side{
+  //   /*width: 15%;*/
+  //   float: left;
+  // }
+  
+  .jigsaw-side {
+    position: absolute;
+    top: 0px;
+    transform: scale(-1);
+    left: 0px;
+}
+  .page-content{
+    max-height: 100vh;
+    overflow: hidden auto;
+    width:100%;
+   padding: 0px 60px 0px 200px;
   }
-  .content-side{
+  
+  // .content-side{
+  //   float: left;
+  //   width: 75%;
+  //   background: #1d1d1b;
+  //   height: 100vh;
+  //   color: white;
+  //   padding: 15px 50px;
+  //   max-height: 100vh;
+  //   overflow: hidden auto;
+  // }
+   
+.content-side {
     float: left;
-    width: 75%;
+    width: 100%;
     background: #1d1d1b;
     height: 100vh;
     color: white;
-    padding: 15px 50px;
-    max-height: 100vh;
-    overflow: hidden auto;
-  }
+    // max-height: 100vh;
+    // overflow: hidden auto;
+    position: relative;
+}
   .dark-content{
     width: 65%;
     float: left;
@@ -112,7 +166,7 @@ const GlobalStyle = createGlobalStyle`
     line-height: 24px;
   }
   .link-list {
-    margin: 0 0 70px -28px;
+    margin: -5px 0 25px 0px;
   }
   .link-list-item {
     color: #fff;
@@ -124,7 +178,7 @@ const GlobalStyle = createGlobalStyle`
     display: block;
     float: left;
     line-height: 26px;
-    margin-right: 40px;
+    margin-right: 15px;
   }
   .link-list-number {
     color: #787878;
@@ -133,10 +187,9 @@ const GlobalStyle = createGlobalStyle`
     padding-right: 21px;
   }
   .link-url-list {
-    display: block;
+    display: inline-block;
     float: left;
     line-height: 26px;
-    width: 60%;
     text-align:left;
   }
   .link-list-link {
@@ -148,6 +201,50 @@ const GlobalStyle = createGlobalStyle`
     position: absolute;
     bottom: -45px;
     left: 0px;
+  }
+  
+  
+  @media screen and (max-width: 640px) {
+    .content{
+      width: 100%;
+      max-height: auto;
+      position: static;
+    }
+    .left-side, .dark-content, .content-side, .nav-item {
+      width: auto;
+      padding: 0px;
+      height: unset;  
+    }
+    .nav-item{
+      margin-bottom:10px;
+    }
+    .jigsaw-side, .hand{
+      display:none;
+    }
+    .content-side{
+      padding: 0px;
+    }
+    .dark-content{
+      width: 100%;
+      padding: 0px;
+      overflow: auto;
+      max-height: unset;
+      height: auto;
+    }
+    .page-content{
+      max-height: unset;
+      height: auto;
+      width: auto;
+      overflow: hidden;
+      padding: 5px 15px;
+      margin-left: 0px;
+    }
+    .header-title{
+      font-size: 30px;
+    }
+    .link-list {
+      margin: 0 0 30px 0px;
+    }
   }
 
 `;

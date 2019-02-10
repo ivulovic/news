@@ -7,6 +7,15 @@ const Topics = (props) => {
   return (
     <div>
       <Topic id={"3214"} category={cateogry} title={"Neki naslov sad nebitan"} description={"lorem200k"}/>
+      <Topic id={"3214"} category={cateogry} title={"Neki naslov sad nebitan"} description={"lorem200k"}/>
+      <Topic id={"3214"} category={cateogry} title={"Neki naslov sad nebitan"} description={"lorem200k"}/>
+      <Topic id={"3214"} category={cateogry} title={"Neki naslov sad nebitan"} description={"lorem200k"}/>
+      <Topic id={"3214"} category={cateogry} title={"Neki naslov sad nebitan"} description={"lorem200k"}/>
+      <Topic id={"3214"} category={cateogry} title={"Neki naslov sad nebitan"} description={"lorem200k"}/>
+      <Topic id={"3214"} category={cateogry} title={"Neki naslov sad nebitan"} description={"lorem200k"}/>
+      <Topic id={"3214"} category={cateogry} title={"Neki naslov sad nebitan"} description={"lorem200k"}/>
+      <Topic id={"3214"} category={cateogry} title={"Neki naslov sad nebitan"} description={"lorem200k"}/>
+      <Topic id={"3214"} category={cateogry} title={"Neki naslov sad nebitan"} description={"lorem200k"}/>
     </div>
   )
 }
