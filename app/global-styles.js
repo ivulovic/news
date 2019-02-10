@@ -19,6 +19,10 @@ const GlobalStyle = createGlobalStyle`
   .svg-jigsaw{
     /*width: 500px; */
     height: 1600px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: rotate(180deg);
   }
    .left{
     float:left;
@@ -90,14 +94,17 @@ const GlobalStyle = createGlobalStyle`
   .jigsaw-side {
     position: absolute;
     top: 0px;
-    transform: scale(-1);
     left: 0px;
+    float:left;
 }
   .page-content{
     max-height: 100vh;
     overflow: hidden auto;
     width:100%;
    padding: 0px 60px 0px 200px;
+   position: absolute;
+left: 0px;
+top: 0px;
   }
   
   // .content-side{
@@ -124,6 +131,7 @@ const GlobalStyle = createGlobalStyle`
   .dark-content{
     width: 65%;
     float: left;
+    postion:relative;
   }
   .right-side{
     height:1600px;
