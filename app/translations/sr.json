@@ -1,0 +1,17 @@
+{
+  "boilerplate.containers.LocaleToggle.sr": "Српски",
+  "boilerplate.containers.LocaleToggle.en": "Енглески",
+  "boilerplate.containers.LocaleToggle.es": "Шпански",
+  "boilerplate.containers.LocaleToggle.ru": "Руски",
+  "boilerplate.containers.Topics.website.name": "Критика",
+  "boilerplate.components.Menu.online.harassment": "Интернет злостављање",
+  "boilerplate.components.Menu.injustice.corruption": "Неправда и корупција",
+  "boilerplate.components.Menu.free.speech": "Напади на слободу говора",
+  "boilerplate.components.NotFoundPage.header": "Страница није пронађена",
+  "boilerplate.containers.Topic.share": "Подели овај чланак",
+  "boilerplate.containers.Topic.online.harassment": "Интернет злостављање",
+  "boilerplate.containers.Topic.injustice.corruption": "Неправда и корупција",
+  "boilerplate.containers.Topic.free.speech": "Напади на слободу говора",
+  "boilerplate.containers.Topic.test.title": "Српски ватерполисти нападнути у Сплиту",
+  "boilerplate.containers.Topic.test.description": "\"Најоштрије осуђујемо напад на спортисте Црвене звезде, нема апсолутно никаквог оправдања за насиље. Поносимо се што смо град спорта, туризма и гостољубивости! Овакви националистички испади само бацају љагу на наш град. Не може човек да бира хоће ли да се роди као Србин или Хрват, али може да бира хоћ́е ли бити човек или не\", поручили су млади СДП-а"
+}

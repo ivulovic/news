@@ -1,0 +1,17 @@
+{
+  "boilerplate.containers.LocaleToggle.sr": "Serbio",
+  "boilerplate.containers.LocaleToggle.en": "Inglés",
+  "boilerplate.containers.LocaleToggle.es": "Español",
+  "boilerplate.containers.LocaleToggle.ru": "Ruso",
+  "boilerplate.containers.Topics.website.name": "Critica",
+  "boilerplate.components.Menu.online.harassment": "Abuso en línea",
+  "boilerplate.components.Menu.injustice.corruption": "Injusticia y corrupcion",
+  "boilerplate.components.Menu.free.speech": "Ataques de libertad de expresión",
+  "boilerplate.components.NotFoundPage.header": "Página no encontrada.",
+  "boilerplate.containers.Topic.share": "Compartir esta publicacion",
+  "boilerplate.containers.Topic.online.harassment": "Abuso en línea",
+  "boilerplate.containers.Topic.injustice.corruption": "Injusticia y corrupcion",
+  "boilerplate.containers.Topic.free.speech": "Ataques de libertad de expresión",
+  "boilerplate.containers.Topic.test.title": "Jugadores serbios de waterpolo atacados en Split",
+  "boilerplate.containers.Topic.test.description": "\"Condenamos enérgicamente el ataque a los atletas de la Estrella Roja, no hay absolutamente ninguna justificación para la violencia. ¡Nos enorgullecemos de ser una ciudad de deporte, turismo y hospitalidad! Tales arrebatos nacionalistas están lanzando una bola a nuestra ciudad. \"Un hombre no puede elegir si nacer como serbio o croata, pero puede elegir si será hombre o no\", dijo el joven SDP."
+}
