@@ -29,12 +29,10 @@ export default class App extends React.Component{
         </Helmet>
         <div className="content">
           <div className="left left-side">
-            <div className="text-center">
+            <div className="top-space text-center">
               <LocaleToggle />  <img className="logo-image" src={logo}/>
-
               <Menu />
-              </div>
-
+            </div>
             <Hand />
           </div>
           <div className="dark-content">
